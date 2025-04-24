@@ -2,10 +2,16 @@
 DESCRIÇÃO: Script para jogar impar ou par com o computador (brake).
 AUTOR: Lucas Matias Fontoura
 DATA: 23/03/2025
-VERSÃO: 1.0
+VERSÃO: 
+(23/03/2025) 1.0 -> código mais simples
+(25/03/2025) 1.1 -> código mais elaborado
+(23/04/2025) 1.2 -> código 1 em formato de comentario 
 """
-from random import choice, randint
 
+from random import randint
+
+"""
+from random import choice
 cont = 0
 
 while True:
@@ -18,11 +24,13 @@ while True:
         cont+=1
     print('parabens, vc acertou')
 print(f'vc teve umas sequencia de {cont} vitorias')
-    
-#versão 2.0, melhorando o codigo.
+"""
+
+#versão 1.1, melhorando o codigo.
 cont = 0
 result = 0
 valor = 0
+
 while True:
     valornum = int(input('digite um numero desejado de 0 a 10: '))
     valornumm = randint(0,10)
@@ -38,4 +46,5 @@ while True:
     else:
         print(f'{result} é, portando vc perdeu')
         break
+    
 print(f'vc teve uma sequencia de {cont} numeros')

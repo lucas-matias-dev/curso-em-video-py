@@ -1,5 +1,5 @@
 """
-DESCRIÇÃO: Algoritmo para atribuir valores a uma lista e mostrar uma lista separada de valores pares e impares.
+DESCRIÇÃO: Script para atribuir valores a uma lista e mostrar uma lista separada de valores pares e impares.
 AUTOR: Lucas Matias Fontoura
 DATA: 01/04/2025
 VERSÃO: 1.0

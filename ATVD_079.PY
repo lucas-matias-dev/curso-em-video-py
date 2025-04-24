@@ -1,8 +1,11 @@
 """
-DESCRIÇÃO: Algoritmo para colocar varios valores numericos em uma lista sem repetir valores.
+DESCRIÇÃO: Script para colocar varios valores numericos em uma lista sem repetir valores.
 AUTOR: Lucas Matias Fontoura
 DATA: 28/03/2025
-VERSÃO: 1.0
+VERSÃO: 
+(28/03/2025)1.0 -> código sem correção da descrição
+(23/04/2025)1.1 -> código com descrição corrigida 
+
 """
 lista = list()
 while True:

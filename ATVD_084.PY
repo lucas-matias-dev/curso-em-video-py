@@ -2,7 +2,9 @@
 DESCRIÇÃO: Algoritmo para criar uma lista com nome e peso, mostrar os mais leves e mais pesadas.
 AUTOR: Lucas Matias Fontoura
 DATA: 03/04/2025
-VERSÃO: 1.0
+VERSÃO:
+(03/04/2025)1.0 -> código, porem com um comentario de ilustração  
+(23/04/2025)1.1 -> retirada do comentario de ilustração (mais clean)
 """
 resposta = 'S'
 lista = list()
@@ -45,20 +47,7 @@ for cont in lista_tot:
         lista_tot_pesado.append(cont[0])
     elif pesado == cont[1]:
         lista_tot_pesado.append(cont[0])
+        
 print(f'a quantidade total de pessoas na lista é {len(lista_tot)}')
 print(f'o peso mais pesado foi de {pesado} com as pessoas:{lista_tot_pesado}')
 print(f'o peso mais leve foi de {leve} com as pessoas:{lista_tot_leve}')  
-
-"""
-for cont in lista_tot:
-    print(cont[1])
-    print(max(int(lista_tot)))
-    if cont[1] == max(int(lista_tot)) :
-        lista_tot_pesada.append(cont[0])
-    elif cont[1] == max(int(lista_tot)) :
-        lista_tot_leve.append(cont[0])
-
-print(f'a quantidade total de pessoas na lista é {len(lista_tot)}')
-print(f'o peso mais pesado foi de {max(lista_tot)[1]} com as pessoas:{lista_tot_pesada}')
-print(f'o peso mais leve foi de {min(lista_tot)[1]} com as pessoas:{lista_tot_leve}')        
-"""

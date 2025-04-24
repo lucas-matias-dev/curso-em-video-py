@@ -1,8 +1,10 @@
 """
-DESCRIÇÃO: Algoritmo para para ordenação de numeros em uma lista sem usar o sort.
+DESCRIÇÃO: Script para para ordenação de numeros em uma lista sem usar o sort.
 AUTOR: Lucas Matias Fontoura
 DATA: 01/04/2025
-VERSÃO: 1.0
+VERSÃO:
+(01/03/2025)1.0 -> código sem correção da descrição
+(23/04/2025)1.1 -> código com descrição corrigida 
 """
 lista = list()
 for cont1 in range (0,5):

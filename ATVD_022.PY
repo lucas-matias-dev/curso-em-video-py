@@ -3,7 +3,8 @@ DESCRIÇÃO: Script para apresentar uma variavel tipo string de diversas formas
 AUTOR: Lucas Matias Fontoura
 DATA: 09/03/2025
 VERSÃO: 
-(09/03/2025)1.0 -> correção de codigo
+(09/03/2025)1.0 -> código sem correção
+(22//04/205)1.1 -> correção de código
 """
 n1 = str(input('digite seu nome aqui: ')).strip()
 

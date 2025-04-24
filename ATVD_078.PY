@@ -1,5 +1,5 @@
 """
-DESCRIÇÃO: Algoritmo para obter 5 valores em uma lista.
+DESCRIÇÃO: Script para obter 5 valores em uma lista.
 AUTOR: Lucas Matias Fontoura
 DATA: 28/03/2025
 VERSÃO: 1.0
